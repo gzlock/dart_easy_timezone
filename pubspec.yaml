@@ -1,7 +1,7 @@
 name: easy_timezone
 description: A very easy to use timezone package to Dart and Flutter.
 version: 1.0.1
-repository: https://github.com/gzlock/flutter_easy_timezone
+repository: https://github.com/gzlock/dart_easy_timezone
 
 environment:
   sdk: '>=2.19.6 <3.0.0'
