@@ -1,0 +1,13 @@
+name: easy_timezone_example
+description: A very easy to use timezone package to Dart and Flutter.
+version: 1.0.0
+publish_to: none
+repository: https://github.com/gzlock/flutter_easy_timezone
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  intl: any
+  easy_timezone:
+    path: ../
