@@ -7,7 +7,8 @@ void main() {
   // print(EasyTimeZone.allTimeZoneAndOffset());
   EasyTimeZone.setFromTimeZone('asia/shanghai');
   final now = DateTime.now();
-  print(jsonEncode({
+  var encoder = new JsonEncoder.withIndent("     ");
+  print(encoder.convert({
     'default': {
       'now': now.toString(),
       'utc': now.toUtc().toString(),

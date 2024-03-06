@@ -66,3 +66,9 @@ Show the list of the timezone and hours offset.
 ```dart
 print(EasyTimeZone.allTimeZoneAndOffset());
 ```
+
+## Fork and update timezone list by yourself:
+Run the command in the cli: `dart build.dart`
+
+## Timezone list source:
+https://github.com/dmfilipenko/timezones.json/blob/master/timezones.json
