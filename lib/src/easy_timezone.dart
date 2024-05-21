@@ -1,5 +1,3 @@
-library easy_timezone;
-
 import 'data.dart';
 
 extension EasyTimeZone on DateTime {

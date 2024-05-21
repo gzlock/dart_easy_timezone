@@ -1,3 +1,8 @@
+## 1.0.2+1
+
+- Update README.md
+- Update timezone data
+
 ## 1.0.2
 
 - Update README.md

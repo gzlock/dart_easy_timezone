@@ -68,8 +68,8 @@ print(EasyTimeZone.allTimeZoneAndOffset());
 ```
 
 ## Fork and update timezone list by yourself:
-Goto the [build.dart](./build.dart), and add your timezone to the `fixed`
-Then run the command in the cli: `dart build.dart`
+Goto the [build_data.dart](./build_data.dart), and add your timezone to the `fixed`
+Then run the command in the cli: `dart build_data.dart`
 
 ## Timezone list source:
 https://github.com/dmfilipenko/timezones.json/blob/master/timezones.json

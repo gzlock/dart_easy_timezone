@@ -19,6 +19,7 @@ void main() async {
       timezone['utc'].addAll(fixed[timezone['offset']]);
     }
   }
-  await file.writeAsString('const data = ${jsonEncode(json)};');
+  await file
+      .writeAsString('library easy_timezone;const data = ${jsonEncode(json)};');
   print('success');
 }
